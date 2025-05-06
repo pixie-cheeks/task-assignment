@@ -1,0 +1,53 @@
+{
+  "name": "task-assignment",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint",
+    "lint:css": "stylelint *",
+    "lint:all": "eslint && stylelint *",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@awmottaz/prettier-plugin-void-html": "^1.8.0",
+    "@pixie-cheeks/eslint-config": "^11.1.0",
+    "@pixie-cheeks/stylelint-config": "^3.0.0",
+    "eslint": "^9.26.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.5.2",
+    "prettier": "^3.5.3",
+    "stylelint": "^16.19.1",
+    "vite": "^6.3.5"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "plugins": [
+      "@awmottaz/prettier-plugin-void-html"
+    ]
+  },
+  "stylelint": {
+    "extends": [
+      "@pixie-cheeks/stylelint-config",
+      "@pixie-cheeks/stylelint-config/bem"
+    ],
+    "ignoreFiles": [
+      "**/*",
+      "!src/**/*.css"
+    ]
+  },
+  "lint-staged": {
+    "*": [
+      "prettier --write --ignore-unknown"
+    ],
+    "*.{js,cjs}": [
+      "eslint --max-warnings 0"
+    ],
+    "*.css": [
+      "stylelint"
+    ]
+  }
+}
