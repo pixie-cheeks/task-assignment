@@ -1,4 +1,101 @@
+@font-face {
+  font-family: sofia-pro;
+  font-weight: bold;
+  font-style: normal;
+  src: url('fonts/sofia_pro_bold_az.woff') format('woff');
+}
+
+@font-face {
+  font-family: sofia-pro;
+  font-weight: normal;
+  font-style: normal;
+  src: url('fonts/sofia_pro_regular_az.woff') format('woff');
+}
+
+:root {
+  --font-family-common:
+    system-ui, -apple-system, 'Segoe UI', 'Open Sans', 'Helvetica Neue',
+    sans-serif;
+  --primary-color: #e61f00;
+
+  font-family: sofia-pro, var(--font-family-common);
+}
+
+.root__body {
+  margin: 0;
+}
+
+.body {
+  min-height: 100dvh;
+}
+
+.page-container {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1500px;
+}
+
 .nav {
-  border: 5px solid black;
-  background-color: pink;
+  padding: 1em 0;
+}
+
+.nav__content {
+  text-align: center;
+}
+
+.nav__logo {
+  /* border: 1px solid black; */
+}
+
+.nav__list {
+  margin: 0;
+  padding: 1em 0;
+  list-style: none;
+}
+
+.nav__item {
+  padding: 0.5em 0;
+}
+
+.red-big,
+.black-big {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.red-big {
+  color: var(--primary-color);
+}
+
+.black-big {
+  color: black;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav__link:hover {
+  color: #1562d4;
+}
+
+.button {
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+.nav__button {
+  border-radius: 0.3rem;
+  background-color: var(--primary-color);
+  padding: 0.8em 1em;
+  color: white;
+  font-weight: bold;
+}
+
+.nav__button:hover {
+  outline: 1px solid var(--primary-color);
+  background-color: white;
+  color: var(--primary-color);
 }

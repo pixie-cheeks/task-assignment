@@ -7,21 +7,35 @@
     <link rel="stylesheet" href="main.css">
   </head>
 
-  <body>
+  <body class="root__body body">
     <header>
       <nav class="nav">
         <div class="page-container nav-container">
-          <div class="nav__logo"></div>
-          <ul class="nav__list">
-            <li class="nav__item">Products</li>
-            <li class="nav__item">
-              <span class="red-big">3Di</span>
-              <span class="black-big">Engage</span> Platform
-            </li>
-            <li class="nav__item">Resources</li>
-            <li class="nav__item">Company</li>
-          </ul>
-          <button class="nav__button button">Request Demo</button>
+          <img
+            class="nav__logo"
+            src="assets/3di-logo.png"
+            alt="3Di company logo"
+          >
+          <div class="nav__content">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#" class="nav__link">Products</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">
+                  <span class="red-big">3Di</span>
+                  <span class="black-big">Engage</span> Platform
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Resources</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Company</a>
+              </li>
+            </ul>
+            <button class="nav__button button">Request Demo</button>
+          </div>
         </div>
       </nav>
     </header>
