@@ -5,18 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <link rel="stylesheet" href="main.css">
+    <script type="module" src="main.js" defer></script>
   </head>
 
   <body class="root__body body">
     <header>
       <nav class="nav">
         <div class="page-container nav-container">
-          <img
-            class="nav__logo"
-            src="assets/3di-logo.png"
-            alt="3Di company logo"
-          >
-          <div class="nav__content">
+          <div class="nav__control">
+            <img
+              class="nav__logo"
+              src="assets/3di-logo.png"
+              alt="3Di company logo"
+            >
+            <button
+              class="nav__ham-menu ham-menu button js-ham-menu"
+              aria-label="Menu Button"
+            >
+              <span class="ham-menu__span"></span>
+              <span class="ham-menu__span"></span>
+              <span class="ham-menu__span"></span>
+            </button>
+          </div>
+          <div class="nav__content js-nav-content">
             <ul class="nav__list">
               <li class="nav__item">
                 <a href="#" class="nav__link">Products</a>
@@ -42,7 +53,7 @@
 
     <section class="hero">
       <div class="page-container hero-container">
-        <h1>Transform Your Inspections With Ease</h1>
+        <h1 class="hero__title">Transform Your Inspections With Ease</h1>
         <p>
           Real-time EHS Audits, Asset Tracking &amp; Compliance &ndash; All in
           One Place
