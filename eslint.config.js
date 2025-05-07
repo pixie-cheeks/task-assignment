@@ -8,18 +8,18 @@ export default defineConfig([
     languageOptions: {
       globals: pixie.globals.browser,
     },
+    rules: {
+      'import-x/no-extraneous-dependencies': [
+        'error',
+        { devDependencies: ['*.js'] },
+      ],
+    },
   },
   {
-    files: ['eslint.config.js'],
+    files: ['{eslint,vite}.config.js'],
     rules: {
       'import-x/no-default-export': 'off',
     },
-  },
-  {
-    languageOptions: {
-      globals: pixie.globals.node,
-    },
-    files: ['postcss.config.cjs'],
   },
   pixie.prettier,
 ]);
