@@ -88,6 +88,7 @@
 .form__offer-field {
   display: flex;
   gap: 1em;
+  font-weight: bold;
 }
 
 .form__link {
@@ -127,8 +128,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-end;
-  min-height: 20dvh;
 }
 
 .dialog__button {
