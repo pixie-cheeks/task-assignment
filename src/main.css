@@ -123,7 +123,7 @@
 /* The 3Di Engage text in the navigation. */
 .red-big,
 .black-big {
-  font-size: 1.2rem;
+  font-size: 1.2em;
   font-weight: bold;
 }
 
@@ -377,22 +377,20 @@
   text-align: center;
 }
 
-.footer__logo-img {
-  padding-bottom: 0.5em;
-}
-
 .footer__logo-address {
   display: flex;
   gap: 0.5em;
-  align-items: center;
   justify-content: center;
+}
+
+.footer__address-socials {
+  text-align: left;
 }
 
 .socials {
   display: flex;
   gap: 1em;
-  margin: 0 auto;
-  width: max-content;
+  padding-top: 0.5em;
 }
 
 .socials__logo {
@@ -486,5 +484,105 @@
   .footer__content {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (width >= 1024px) {
+  .nav__ham-menu {
+    display: none;
+  }
+
+  .nav-container {
+    display: flex;
+  }
+
+  .nav__control {
+    margin-right: auto;
+  }
+
+  .nav__container,
+  .nav__content,
+  .nav__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nav__content {
+    gap: 13em;
+  }
+
+  .nav__list {
+    gap: 2em;
+    font-size: 1.5rem;
+  }
+
+  .nav__button {
+    padding: 0.5em 1em;
+    font-size: 1.2rem;
+  }
+
+  .hero {
+    font-size: 2rem;
+  }
+
+  .hero__button {
+    font-size: 1.5rem;
+  }
+
+  .features__title {
+    padding: 1em;
+    font-size: 2.5rem;
+  }
+
+  .features__content {
+    gap: 2em;
+  }
+
+  .features__img-container {
+    flex-grow: 1;
+  }
+
+  .features__list {
+    display: grid;
+    flex-grow: 2;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+  }
+
+  .product-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 1.25rem;
+  }
+
+  .stats__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 900px;
+  }
+
+  .footer-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .footer__content {
+    display: flex;
+    flex: 2 0 0;
+    gap: 1em;
+    text-align: left;
+  }
+
+  .footer__item {
+    flex: 1 0 0;
+  }
+
+  .contact {
+    flex: 1 0 0;
+    border-left: 1px solid rgb(189 183 183 / 30%);
+    padding: 0;
+    padding-left: 1em;
+    text-align: left;
   }
 }
