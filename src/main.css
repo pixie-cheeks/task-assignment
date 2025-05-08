@@ -2,14 +2,14 @@
   font-family: sofia-pro;
   font-weight: bold;
   font-style: normal;
-  src: url('fonts/sofia_pro_bold_az.woff') format('woff');
+  src: url('./fonts/sofia_pro_bold_az.woff') format('woff');
 }
 
 @font-face {
   font-family: sofia-pro;
   font-weight: normal;
   font-style: normal;
-  src: url('fonts/sofia_pro_regular_az.woff') format('woff');
+  src: url('./fonts/sofia_pro_regular_az.woff') format('woff');
 }
 
 :root {

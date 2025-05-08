@@ -5,6 +5,7 @@ import { fileURLToPath } from 'node:url';
 const dirname = path.dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig({
+  base: '/task-assignment/',
   root: 'src',
   build: {
     rollupOptions: {
