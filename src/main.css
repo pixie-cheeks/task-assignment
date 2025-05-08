@@ -292,3 +292,31 @@
   margin: 0;
   color: white;
 }
+
+/* Action Section */
+.action-call {
+  background-image: url('assets/action-bg.png');
+  background-position: 50% center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+}
+
+.action-call-container {
+  padding: 1em 0;
+}
+
+.action-call__text {
+  margin: 0;
+  margin-bottom: 1em;
+}
+
+.action-call__button {
+  border: 1px solid #f7f7f7;
+  border-radius: 0.2em;
+  background-color: #f7f7f7;
+  padding: 0.5em 1em;
+  font-size: 1.5rem;
+}
