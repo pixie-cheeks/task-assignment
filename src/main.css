@@ -320,3 +320,76 @@
   padding: 0.5em 1em;
   font-size: 1.5rem;
 }
+
+.action-call__button:hover {
+  background-color: gray;
+  color: #f7f7f7;
+}
+
+/* Footer Section */
+.footer {
+  background-color: #0a141d;
+  color: white;
+}
+
+.footer-container {
+  padding: 2em 0;
+}
+
+.footer__list-title {
+  margin: 0;
+  padding: 1.5em 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #637471;
+}
+
+.footer__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer__list-item {
+  padding: 0.5em 0;
+}
+
+.footer__contract {
+  margin: 0;
+}
+
+.footer__content {
+  text-align: center;
+}
+
+.contact {
+  padding: 1em 0;
+  text-align: center;
+}
+
+.footer__logo-img {
+  padding-bottom: 0.5em;
+}
+
+.footer__logo-address {
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+  justify-content: center;
+}
+
+.socials {
+  display: flex;
+  gap: 1em;
+  margin: 0 auto;
+  width: max-content;
+}
+
+.socials__logo {
+  width: 30px;
+  height: auto;
+}
+
+.footer__tiny-text {
+  font-size: 0.8rem;
+}
