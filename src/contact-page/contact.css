@@ -122,3 +122,16 @@
     flex-direction: row;
   }
 }
+
+.dialog__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  min-height: 20dvh;
+}
+
+.dialog__button {
+  border-radius: 2px;
+  padding: 1em;
+}

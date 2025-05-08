@@ -133,19 +133,29 @@
                 <label for="first-name">
                   First Name <span class="required-star">*</span>
                 </label>
-                <input type="text" id="first-name" class="form__input-box">
+                <input
+                  type="text"
+                  id="first-name"
+                  class="form__input-box"
+                  required
+                >
               </div>
               <div class="form__field">
                 <label for="last-name">
                   Last Name <span class="required-star">*</span>
                 </label>
-                <input type="text" id="last-name" class="form__input-box">
+                <input
+                  type="text"
+                  id="last-name"
+                  class="form__input-box"
+                  required
+                >
               </div>
               <div class="form__field">
                 <label for="email">
                   Work Email <span class="required-star">*</span>
                 </label>
-                <input type="email" id="email" class="form__input-box">
+                <input type="email" id="email" class="form__input-box" required>
               </div>
               <div class="form__field">
                 <label for="number">Phone Number</label>
@@ -170,7 +180,7 @@
                   Reason for Inquiry
                   <span class="required-star">*</span>
                 </label>
-                <select id="inquiry-reason" class="form__input-box">
+                <select id="inquiry-reason" class="form__input-box" required>
                   <option selected disabled hidden>Please Select</option>
                   <option>Option 1</option>
                   <option>Option 2</option>
@@ -181,7 +191,11 @@
                 <label for="message">
                   Message <span class="required-star">*</span>
                 </label>
-                <textarea id="message" class="form__input-box"></textarea>
+                <textarea
+                  id="message"
+                  class="form__input-box"
+                  required
+                ></textarea>
               </div>
             </div>
           </div>
@@ -204,11 +218,22 @@
               store and process the personal information submitted above to
               provide you the content requested.
             </p>
-            <button type="submit" class="button form__button">Submit</button>
+            <button type="submit" class="js-submit-button button form__button">
+              Submit
+            </button>
           </div>
         </div>
       </form>
     </main>
+
+    <dialog class="js-dialog dialog">
+      <div class="dialog__inner">
+        <p class="dialog__text js-dialog-text"></p>
+        <button class="button dialog__button js-dialog-button" autofocus>
+          OK
+        </button>
+      </div>
+    </dialog>
 
     <footer class="footer">
       <div class="page-container footer-container">
