@@ -35,6 +35,7 @@
   max-width: 1500px;
 }
 
+/* Navigation Section */
 .nav {
   padding: 1em 0;
 }
@@ -163,6 +164,33 @@
   color: var(--primary-color);
 }
 
+/* Hero Section */
+.hero {
+  position: relative;
+  color: white;
+}
+
+.hero__filter {
+  box-shadow: inset 10rem 0 8rem rgb(0 0 0 / 80%);
+  background-image: url('assets/hero-background.png');
+  background-position: 75% center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.hero-container {
+  padding: 4em 0;
+}
+
 .hero__title {
   margin: 0;
+}
+
+.hero__button {
+  border-radius: 0.25rem;
+  background-color: var(--primary-color);
+  padding: 0.5em 0.7em;
+  color: white;
 }
