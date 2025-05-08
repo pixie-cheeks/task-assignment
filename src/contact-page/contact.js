@@ -1,7 +1,7 @@
-import { setupHamMenu } from '../ham-menu.js';
+import { setupEverything } from '../setup.js';
 import { showMessage, attachOnCloseEvent } from './dialog.js';
 
-setupHamMenu();
+setupEverything();
 
 const firstName = document.querySelector('#first-name');
 const lastName = document.querySelector('#last-name');

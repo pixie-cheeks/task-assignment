@@ -602,3 +602,16 @@
 .footer__link:hover {
   color: #1562d4;
 }
+
+.scroll-button {
+  display: none;
+  position: fixed;
+  right: 30px;
+  bottom: 20px;
+  z-index: 10;
+  background-color: transparent;
+}
+
+.scroll-button--active {
+  display: block;
+}

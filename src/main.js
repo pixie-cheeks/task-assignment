@@ -1,3 +1,3 @@
-import { setupHamMenu } from './ham-menu.js';
+import { setupEverything } from './setup.js';
 
-setupHamMenu();
+setupEverything();
