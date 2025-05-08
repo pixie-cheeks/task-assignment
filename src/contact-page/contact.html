@@ -133,31 +133,35 @@
                 <label for="first-name">
                   First Name <span class="required-star">*</span>
                 </label>
-                <input type="text" id="first-name">
+                <input type="text" id="first-name" class="form__input-box">
               </div>
               <div class="form__field">
                 <label for="last-name">
                   Last Name <span class="required-star">*</span>
                 </label>
-                <input type="text" id="last-name">
+                <input type="text" id="last-name" class="form__input-box">
               </div>
               <div class="form__field">
                 <label for="email">
                   Work Email <span class="required-star">*</span>
                 </label>
-                <input type="email" id="email">
+                <input type="email" id="email" class="form__input-box">
               </div>
               <div class="form__field">
                 <label for="number">Phone Number</label>
-                <input type="tel" id="number">
+                <input type="tel" id="number" class="form__input-box">
               </div>
               <div class="form__field">
                 <label for="job-title">Job Title</label>
-                <input type="text" id="job-title">
+                <input type="text" id="job-title" class="form__input-box">
               </div>
               <div class="form__field">
                 <label for="organization-name">Organization Name</label>
-                <input type="text" id="organization-name">
+                <input
+                  type="text"
+                  id="organization-name"
+                  class="form__input-box"
+                >
               </div>
             </div>
             <div class="form__long-fields">
@@ -166,7 +170,7 @@
                   Reason for Inquiry
                   <span class="required-star">*</span>
                 </label>
-                <select id="inquiry-reason">
+                <select id="inquiry-reason" class="form__input-box">
                   <option selected disabled hidden>Please Select</option>
                   <option>Option 1</option>
                   <option>Option 2</option>
@@ -177,7 +181,7 @@
                 <label for="message">
                   Message <span class="required-star">*</span>
                 </label>
-                <textarea id="message"></textarea>
+                <textarea id="message" class="form__input-box"></textarea>
               </div>
             </div>
           </div>
@@ -186,21 +190,21 @@
               Would you like to receive industry insights and occasional
               information about related solutions?
             </p>
-            <div class="form__field">
+            <div class="form__offer-field">
               <input type="checkbox" id="offer-check">
               <label for="offer-check">
                 I agree to receive other communications from 3Di.
               </label>
             </div>
             <p class="form__privacy-policy">
-              <a href="#" class="link">Privacy Policy</a>.
+              <a href="#" class="link form__link">Privacy Policy</a>.
             </p>
             <p class="form__submission-details">
               By clicking submit below, you consent to allow 3Di Systems to
               store and process the personal information submitted above to
               provide you the content requested.
             </p>
-            <button type="submit">Submit</button>
+            <button type="submit" class="button form__button">Submit</button>
           </div>
         </div>
       </form>

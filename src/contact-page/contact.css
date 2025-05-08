@@ -32,6 +32,11 @@
   padding: 3em 0;
 }
 
+.contact-us__title {
+  margin: 0;
+  padding-bottom: 2em;
+}
+
 .contact-us__locations {
   display: flex;
   flex-direction: column;
@@ -49,4 +54,53 @@
   box-shadow: 0 0 2px 1px #bbb5b5;
   padding: 2em;
   text-align: center;
+}
+
+.form-container {
+  padding: 2em 0;
+}
+
+.form__title {
+  margin: 0;
+  padding-bottom: 2em;
+  text-align: center;
+}
+
+.required-star {
+  color: red;
+}
+
+.form__field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.form__body,
+.form__short-fields,
+.form__long-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.form__offer-field {
+  display: flex;
+  gap: 1em;
+}
+
+.form__link {
+  color: var(--primary-color);
+}
+
+.form__button {
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  background-color: white;
+  padding: 0.5rem 1rem;
+  color: var(--primary-color);
+}
+
+.form__input-box {
+  padding: 0.5rem;
 }
