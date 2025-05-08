@@ -58,6 +58,7 @@
 
 .form-container {
   padding: 2em 0;
+  padding-bottom: 5em;
 }
 
 .form__title {
@@ -103,4 +104,21 @@
 
 .form__input-box {
   padding: 0.5rem;
+}
+
+.page-container {
+  max-width: 1100px;
+}
+
+@media screen and (width >= 765px) {
+  .form__short-fields {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (width >= 1024px) {
+  .contact-us__locations {
+    flex-direction: row;
+  }
 }
