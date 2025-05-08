@@ -167,6 +167,10 @@
 /* Hero Section */
 .hero {
   position: relative;
+  background-image: url('assets/hero-background.png');
+  background-position: 75% center;
+  background-repeat: no-repeat;
+  background-size: cover;
   text-align: center;
   color: white;
   font-size: 1.5rem;
@@ -174,15 +178,11 @@
 
 .hero__filter {
   box-shadow: inset 40rem 0 8000rem rgb(0 0 0 / 80%);
-  background-image: url('assets/hero-background.png');
-  background-position: 75% center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 80dvh;
 }
 
 .hero-container {
   padding: 4em 0;
+  min-height: 80dvh;
 }
 
 .hero__title {
@@ -373,6 +373,10 @@
 }
 
 .contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   padding: 1em 0;
   text-align: center;
 }
@@ -380,7 +384,6 @@
 .footer__logo-address {
   display: flex;
   gap: 0.5em;
-  justify-content: center;
 }
 
 .footer__address-socials {
@@ -580,9 +583,22 @@
 
   .contact {
     flex: 1 0 0;
+    align-items: start;
     border-left: 1px solid rgb(189 183 183 / 30%);
     padding: 0;
     padding-left: 1em;
     text-align: left;
   }
+}
+
+.link {
+  text-decoration: none;
+}
+
+.footer__link {
+  color: white;
+}
+
+.footer__link:hover {
+  color: #1562d4;
 }

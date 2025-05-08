@@ -1,0 +1,20 @@
+@import url('../main.css');
+
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hero {
+  background-image: url('../assets/contact-us-banner.jpg');
+}
+
+.hero__filter {
+  box-shadow: none;
+  background-color: rgb(0 0 0 / 60%);
+}
+
+.hero-container {
+  min-height: 20dvh;
+}
