@@ -257,3 +257,38 @@
 .product__button {
   padding: 0.5em 0.7em;
 }
+
+/* Stats Section */
+.stats {
+  background-image: url('assets/stats-bg.jpg');
+  background-position: 50% center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.stats__img-filter {
+  background-color: rgb(0 0 0 / 70%);
+}
+
+.stats__list {
+  margin: 0;
+  padding: 1em 0;
+  list-style: none;
+  text-align: center;
+}
+
+.stats__item {
+  padding: 1em 0;
+}
+
+.stats__number {
+  margin: 0;
+  margin-bottom: 0.5rem;
+  color: var(--primary-color);
+  font-size: 2.5rem;
+}
+
+.stats__text {
+  margin: 0;
+  color: white;
+}
