@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "deploy": "gh-pages -d dist",
     "lint": "eslint",
     "lint:css": "stylelint *",
     "lint:all": "eslint && stylelint *",
@@ -17,6 +18,7 @@
     "@pixie-cheeks/eslint-config": "^11.1.0",
     "@pixie-cheeks/stylelint-config": "^3.0.0",
     "eslint": "^9.26.0",
+    "gh-pages": "^6.3.0",
     "husky": "^9.1.7",
     "lint-staged": "^15.5.2",
     "postcss-preset-env": "^10.1.6",
