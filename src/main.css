@@ -234,3 +234,26 @@
   margin-bottom: 0.5em;
 }
 /* stylelint-enable selector-max-combinators, selector-max-type */
+
+/* Product Section */
+.product-container {
+  padding: 1em 0;
+}
+
+.product__pre-title {
+  margin: 0;
+  padding: 1em 0;
+  color: var(--primary-color);
+}
+
+.product__title {
+  margin: 0;
+}
+
+.product__special-txt {
+  color: var(--primary-color);
+}
+
+.product__button {
+  padding: 0.5em 0.7em;
+}
