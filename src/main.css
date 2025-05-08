@@ -182,7 +182,7 @@
 
 .hero-container {
   padding: 4em 0;
-  min-height: 80dvh;
+  min-height: 20rem;
 }
 
 .hero__title {
@@ -449,7 +449,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 40dvh;
+    min-height: 15rem;
   }
 
   .stats__list {
@@ -469,7 +469,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    min-height: 30dvh;
+    min-height: 10rem;
   }
 
   .action-call__flex-wrap {
@@ -610,6 +610,8 @@
   bottom: 20px;
   z-index: 10;
   background-color: transparent;
+  max-width: 50px;
+  max-height: 50px;
 }
 
 .scroll-button--active {
